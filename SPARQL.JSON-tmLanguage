@@ -1,0 +1,45 @@
+{
+    "name": "SPARQL",
+    "scopeName": "source.sparql",
+    "fileTypes": [
+        "sparql"
+    ],
+    "patterns": [
+        {
+            "match": "[A-Za-z]*:[A-Za-z]*",
+            "name": "constant.language.sparql",
+            "comment": "Prefixed namespaces like :blog, rdfs:label, etc."
+        },
+        {
+            "match": "<[^>]*>",
+            "name": "constant.language.sparql",
+            "comment": "URIs like <http://rdfs.com>, etc."
+        },
+        {
+            "match": "\\?[A-Za-z]*",
+            "name": "variable.parameter.sparql",
+            "comment": "Variables like ?link, ?dog, etc."
+        },
+        {
+            "match": "(^|\\s)(filter|select|optional|where|graph|FILTER|SELECT|OPTIONAL|WHERE|GRAPH)($|\\s)",
+            "name": "keyword.sparql",
+            "comment": "SPARQL keysnotes like filter, select, optional, etc."
+        },
+        {
+            "match": "\\^\\^[a-zA-Z\\:\\#\\<\\>\\.]*",
+            "name": "constant.sparql",
+            "comment": "SPARQL datatypes like ^^xsd:dateTime, ^^<http://xx.com/wasd#asd>, etc."
+        },  
+        {
+            "match": "'[^']*'",
+            "name": "string.sparql",
+            "comment": "Constants like <http://rdfs.com>, etc."
+        },
+        {
+            "match": "\"[^\"]*\"",
+            "name": "string.sparql",
+            "comment": "Constants like <http://rdfs.com>, etc."
+        }
+    ],
+    "uuid": "bfb819db-ca39-42b6-9c52-ce2f4274f297"
+}
