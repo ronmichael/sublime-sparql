@@ -1,4 +1,4 @@
-sublime-sparql
+sublime-sparql v0.0.1
 =====================
 
 This will someday be a complete SPARQL package for Sublime Text.
