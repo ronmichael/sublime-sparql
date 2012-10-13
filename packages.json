@@ -1,18 +1,20 @@
-"schema_version": "1.2",
-"packages": [
-	{
-		"name": "SPARQL",
-		"description": "SPARQL syntax definition & tidier",
-		"author": "ronmichael",
-		"homepage": "https://github.com/ronmichael/sublime-sparql",
-		"last_modified": "2012-09-26 21:00:00",
-		"platforms": {
-			"*": [
-				{
-					"version": "0.0.1",
-					"url": "https://nodeload.github.com/ronmichael/sublime-sparql/zipball/0.0.1"
-				}
-			]
+{
+	"schema_version": "1.2",
+	"packages": [
+		{
+			"name": "SPARQL",
+			"description": "SPARQL syntax definition & tidier",
+			"author": "ronmichael",
+			"homepage": "https://github.com/ronmichael/sublime-sparql",
+			"last_modified": "2012-09-26 21:00:00",
+			"platforms": {
+				"*": [
+					{
+						"version": "0.0.1",
+						"url": "https://nodeload.github.com/ronmichael/sublime-sparql/zipball/0.0.1"
+					}
+				]
+			}
 		}
-	}
-]
+	]
+}
